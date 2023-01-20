@@ -13,7 +13,8 @@ let colore = prompt("Il tuo colore preferito?")
 // console.log(typeof colore);
 
 
-
+// DISPLAY TEXT
+document.getElementById("utent_information").innerHTML = (nome + cognome + colore + numero_fisso);
 
 
 
